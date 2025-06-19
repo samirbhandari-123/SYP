@@ -1,3 +1,5 @@
+
+
 // Access the Props
 function Profile({img, alt, price}) {
 
