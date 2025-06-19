@@ -11,6 +11,7 @@ export default function Avatar() {
 
   return (
     <div className="flex gap-5">
+
       {arr.map((obj, index) => (
         <Profile img={obj.img} alt={obj.alt} price={obj.price} key={index} />
 
